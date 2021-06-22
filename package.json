@@ -1,0 +1,32 @@
+{
+  "name": "learning-react",
+  "version": "1.0.0",
+  "description": "Repository for learning React",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crunchytee/learning-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crunchytee/learning-react/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "parcel": "^1.12.3",
+    "prettier": "^2.3.1"
+  },
+  "homepage": "https://github.com/crunchytee/learning-react#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
